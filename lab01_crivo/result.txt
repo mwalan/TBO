@@ -1,0 +1,54 @@
+valgrind ./crivo_int 10000000 0
+
+==7006== Memcheck, a memory error detector
+==7006== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7006== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7006== Command: ./crivo_int 10000000 0
+==7006==
+==7006== 
+==7006== HEAP SUMMARY:
+==7006==     in use at exit: 0 bytes in 0 blocks
+==7006==   total heap usage: 2 allocs, 2 frees, 40,000,020 bytes allocated
+==7006==
+==7006== All heap blocks were freed -- no leaks are possible
+==7006==
+==7006== For lists of detected and suppressed errors, rerun with: -s
+==7006== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+=====================================================================================
+
+valgrind ./crivo_char 10000000 0
+
+==7011== Memcheck, a memory error detector
+==7011== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7011== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7011== Command: ./crivo_char 10000000 0
+==7011==
+==7011== 
+==7011== HEAP SUMMARY:
+==7011==     in use at exit: 0 bytes in 0 blocks
+==7011==   total heap usage: 2 allocs, 2 frees, 10,000,017 bytes allocated
+==7011==
+==7011== All heap blocks were freed -- no leaks are possible
+==7011==
+==7011== For lists of detected and suppressed errors, rerun with: -s
+==7011== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+=====================================================================================
+
+valgrind ./crivo_bit 10000000 0
+
+==7014== Memcheck, a memory error detector
+==7014== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7014== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7014== Command: ./crivo_bit 10000000 0
+==7014==
+==7014== 
+==7014== HEAP SUMMARY:
+==7014==     in use at exit: 0 bytes in 0 blocks
+==7014==   total heap usage: 2 allocs, 2 frees, 1,250,017 bytes allocated
+==7014==
+==7014== All heap blocks were freed -- no leaks are possible
+==7014==
+==7014== For lists of detected and suppressed errors, rerun with: -s
+==7014== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
