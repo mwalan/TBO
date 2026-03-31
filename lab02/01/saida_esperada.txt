@@ -1,0 +1,10 @@
+Iniciando processamento da BST...
+Digite os valores inteiros (digite qualquer letra para encerrar):
+Lendo e inserindo chave: 10
+Lendo e inserindo chave: 5
+Lendo e inserindo chave: 15
+Lendo e inserindo chave: 10
+Lendo e inserindo chave: 20
+Lendo e inserindo chave: 8
+Fim da leitura. Chaves processadas na BST (duplicatas ignoradas silenciosamente).
+Memoria da BST liberada com sucesso.

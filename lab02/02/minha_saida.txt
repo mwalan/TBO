@@ -1,0 +1,13 @@
+Iniciando construcao da BST...
+Digite os valores inteiros (digite qualquer letra para encerrar):
+Inserindo chave: 50
+Inserindo chave: 30
+Inserindo chave: 70
+Inserindo chave: 20
+Inserindo chave: 40
+Inserindo chave: 60
+Inserindo chave: 80
+Inserindo chave: 10
+Fim da leitura. Total de tentativas de insercao: 8
+Altura da BST: 3
+Memoria da BST liberada com sucesso.
